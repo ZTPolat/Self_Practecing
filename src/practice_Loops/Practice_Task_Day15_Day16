@@ -1,0 +1,291 @@
+1. @  Create a class named Marriage proposal and Write a program for the  marriage proposal program asking the user, "Will you marry me?"
+    if the answer is yes, print "Congrats."
+    if the answer is no, print "Goodbye"
+    if the answer is neither yes nor no, print "Invalid answer, please re-enter" and repeat it until the user enters either yes or no
+
+
+2. @ Create a class named PositiveNegative and write a program that asks user to enter number for 5 times, and print how many positive and negative numbers user entered
+			Ex:
+				Inputs:
+					10
+					20
+					-1
+					0
+					3
+
+				Output:
+					3 positive and 1 negative
+
+
+3.@@ Create a class named FrequencyOfChar and Write a program that asks user to enter a string and a char, the returns the frequency of the char from the given string
+            Ex:
+                inputs:
+                    str = "aabcccd";
+                    char = 'c';
+
+                output: 3
+
+                inputs:
+                    "Java programming language"
+                    'g'
+
+                output: 4
+
+4.@@  Create a class named DivideTwoNumbers and Write a program that can divide two positive numbers without using / (division) and * (multiplication) operators.
+
+
+5.@@ Create a class named UntilNegative and Write a program that calculates the sum of numbers entered by the user until user enters a negative number.
+
+
+6.@@ Create a class named DivisibleBy and Write a program that can print the numbers between 1 ~ N that can be divisible by 3, 5, and 15.
+	            if the number can be divisible by 3, 5 and 15,
+	                then it should only be displayed in DivisibelBy15' section
+
+	            if the number can be divisible by 3 but cannot be divisible by 15,
+	                then it should only be displayed in DivisibelBy3' section
+
+	            if the number can be divisible by 5 but cannot be divisible by 15,
+	                then it should only be displayed in DivisibelBy5' section
+
+	            EX:
+	                input: 100
+
+	                Output:
+	                     Divisible By 15: 15 30 45 60 75 90
+
+	                     Divisible By 5:  5 10 20 25 35 40 50 55 65 70 80 85 95 100
+
+	                     Divisible By 3: 3 6 9 12 18 21 24 27 33 36 39 42 48 51 54 57 63 66 69 72 78 81 84 87 93 96 99
+
+
+7.@@ you are writing a code for the log-in function of the Cydeo Application, assume that your credentials are:
+                    username: Cydeo
+                    password: Cydeo123
+
+        Ask the user to enter their credentials.
+                If credentials are matched, your program should print "Logged in."
+                If the credentials are not matched, the program should allow the user to have three attempts to enter correct credentials and if all three attempts are failed, then print "Your account is lucked."
+
+
+Extra Spicy:
+
+	8. Create a class called RoomReservation, write a program for the room reservation, your program asks the user wants to reserve a room.
+    	if user entered yes, then ask which type of room the user wants to reserve. if user entered no, print "have a nice day"
+    			(if user entered any invalid answer (other than yes/no) ask user to reenter until user provides a valid entry)
+
+	            King Bed ==> 120$
+	            Queen Bed ==> 100$
+	            single Bed ==> 80$
+
+            the program should be able to display the room he/she reserved and total price of the room.
+
+            (if the user selected an invalid room, ask the user to reselect the room until user provides a valid entry)
+
+	9. Create a class called UniqueCharacters, Write a program that can return the unique characters from a String
+
+	            Ex:
+	                input:
+	                    AABCCD
+
+	                output:
+	                    BD
+
+	            Hint: You will need indexOf() and lastIndexOf()
+	                  if the first and last index numbers of the character are same, then it's unique
+
+	10. Create a class called InsuranceQuote, write a program that can calculate the insurance cost of a person based on the following info:
+	    		1. Ask the user to enter your name
+	    		2. Ask the user to enter your gender
+	    			(if user enters invalid entry, ask the user to re-enter until user provides a valid entry)
+				3. Ask the user if he/she is married(Yes/No)
+						(if user enters invalid entry, ask the user to re-enter until user provides a valid entry)
+				4. Ask user to enter your age
+						(age can not be negative or greater than 120)
+						(if user enters invalid entry, ask the user to re-enter until user provides a valid entry)
+				5. Ask user to enter how many miles he/she drives in a day
+						(mileage can not be negative or less than 5)
+						(if user enters invalid entry, ask the user to re-enter until user provides a valid entry)
+				6. Ask the user if he/she wants full coverage or liability insurance?
+
+				7. Ask if he/she had any accidents or claims in past 5 years (Yes/No)
+						(if user enters invalid entry, ask the user to re-enter until user provides a valid entry)
+
+				8. Ask the user if his/her car has an anti-theft device (Yes/No)
+						(if user enters invalid entry, ask the user to re-enter until user provides a valid entry)
+
+			Calculate the price of the insurance and display all the info of the user
+
+				Insurance Quote calculation:
+					starting prices for liability:
+						age < 25 ===> 90
+						age >= 25 ==> 50
+
+						miles <= 10 ====> $10
+					    miles > 10 and miles <= 50 ==> $30
+					    miles > 50 ===>  $50
+
+					starting prices for full coverage:
+						age < 25 ===> 160
+						age >= 25 ==> 120
+
+						miles <= 10 ====> $20
+					    miles > 10 and miles <= 50 ==> $40
+					    miles > 50 ===>  $70
+
+
+				    If the car has anti-theft device ==> 5% discount
+				    If he/she had any accidents or claims in past 5 years ===> 15% extra charge
+				    If he/she never had any accidents or claims in past 5 years ==> 10% discount
+				    If he/she is married ==> 5% discount
+
+
+Day 16
+
+1.@@ Use a nested loop to print the following shape
+
+        *
+        * *
+        * * *
+        * * * *
+        * * * * *
+        * * * * * *
+        * * * * * * *
+        * * * * * * * *
+        * * * * * * * * *
+        * * * * * * * * * *
+
+
+2. Create a class called MultiplicationTable, Write a program that can display the multiplication table:
+
+                        1       2       3       4       5       6       7       8       9       10
+                        2       4       6       8       10      12      14      16      18      20
+                        3       6       9       12      15      18      21      24      27      30
+                        4       8       12      16      20      24      28      32      36      40
+                        5       10      15      20      25      30      35      40      45      50
+                        6       12      18      24      30      36      42      48      54      60
+                        7       14      21      28      35      42      49      56      63      70
+                        8       16      24      32      40      48      56      64      72      80
+                        9       18      27      36      45      54      63      72      81      90
+                        10      20      30      40      50      60      70      80      90      100
+
+
+3. Use a nested loop to print the following output:
+        Aa Ab Ac Ad Ae Af Ag Ah Ai Aj Ak Al Am An Ao Ap Aq Ar As At Au Av Aw Ax Ay Az
+        Ba Bb Bc Bd Be Bf Bg Bh Bi Bj Bk Bl Bm Bn Bo Bp Bq Br Bs Bt Bu Bv Bw Bx By Bz
+        Ca Cb Cc Cd Ce Cf Cg Ch Ci Cj Ck Cl Cm Cn Co Cp Cq Cr Cs Ct Cu Cv Cw Cx Cy Cz
+        Da Db Dc Dd De Df Dg Dh Di Dj Dk Dl Dm Dn Do Dp Dq Dr Ds Dt Du Dv Dw Dx Dy Dz
+        Ea Eb Ec Ed Ee Ef Eg Eh Ei Ej Ek El Em En Eo Ep Eq Er Es Et Eu Ev Ew Ex Ey Ez
+
+
+4. Write a program that can calculate the area and perimeter of a circle:
+                        1. Ask the user "Enter the radius of the circle:"
+                                if user enters 0 or negative numbers, terminate the program after displaying the error message "Invalid Entry for the radius of the circle"
+
+                        2. Display:
+                                        1. Diameter of circle
+                                        2. Area of circle
+                                        3. Perimeter of circle
+
+                        3. Ask the user "Would you like to calculate another circle?"
+                                        If "yes" --> repeat the previous steps
+                                        If "No" --> Print "Thank you for using Cydeo Circle Calculator APP"
+
+                                If user enters an invalid entry, ask the user to re-enter until user provides a valid entry
+
+                        Hint: you can use  System.exit(1) to terminate the entire program
+
+
+5. Write a program that can calculate the area and perimeter of a Square:
+                        1. Ask the user "Enter the side of the square:"
+                                if user enters 0 or negative numbers, terminate the program after displaying the error message "Invalid Entry for the side of the square"
+
+                        2. Display:
+                                        1. Area of square
+                                        2. Perimeter of square
+
+                        3. Ask the user "Would you like to calculate another Square?"
+                                        If "yes" --> repeat the previous steps
+                                        If "No" --> Print "Thank you for using Cydeo Square Calculator APP"
+
+                                If user enters an invalid entry, ask the user to re-enter until user provides a valid entry
+
+                        Hint: you can use  System.exit(1) to terminate the entire program
+
+
+6. Write a program that can calculate the area and perimeter of a Rectangle:
+                        1. Ask the user "Enter the length of the Rectangle:"
+                                if user enters 0 or negative numbers, terminate the program after displaying the error message "Invalid Entry for the length of the rectangle"
+
+                        2. Ask the user "Enter the width of the Rectangle:"
+                                if user enters 0 or negative numbers, terminate the program after displaying the error message "Invalid Entry for the width of the rectangle"
+
+                        3. Display:
+                                        1. Area of rectangle
+                                        2. Perimeter of rectangle
+
+                        4. Ask the user "Would you like to calculate another Rectangle?"
+                                        If "yes" --> repeat the previous steps
+                                        If "No" --> Print "Thank you for using Cydeo Rectangle Calculator APP"
+
+                                If user enters an invalid entry, ask the user to re-enter until user provides a valid entry
+
+                        Hint: you can use  System.exit(1) to terminate the entire program
+
+
+7. Write a program for grade calculator:
+                        1. Ask the user "Enter your score"
+                                If user enters invalid score, terminate the program after displaying the error message "Invalid Entry"
+
+                         2. Display the grade of the student.
+                                        90 ~ 100 ==> A
+                                        80 ~ 89 ==> B
+                                        70 ~ 79 ==> C
+                                        60 ~ 69 ==> D
+                                        0 ~ 59 ==> F
+
+                        2. Ask the user would you like to continue
+                                If "yes" --> repeat the previous steps
+                                If "no" --> print "Thank you for using Cydeo Grade Calculator APP"
+
+                                If user enters an invalid entry, terminate the program after displaying the error message "Invalid Entry"
+
+
+                         Hint: you can use  System.exit(1) to terminate the entire program
+
+
+8. Create a class called RoomReservation, write a program for the room reservation:
+            King Bed ==> 120$
+            Queen Bed ==> 100$
+            single Bed ==> 80$
+
+            the program asks the user which bedroom does he/she wants to reserve, and how many nights he/she is staying.
+            Then Ask the user "would you like to reserve another room?""
+                            if yes ==> repeat the entire steps
+                            if no ==> return the  total price
+
+                If user enters any invalid entry,  ask the user to re-enter until user provides a valid entry
+
+
+9. Write a program that can find the frequency of the characters from a string
+
+                         Ex:
+                        str = "aabcccd";
+
+                        output:
+                                a2b1c3d1
+
+
+            Hint: if you find out how to find the frequency of one character, then repeat it for all the remaining characters
+
+
+10. Write a program that can find the unique characters from a string without using index() and lastIndexOf() methods
+
+                        Ex:
+                        str = "aabccdeef";
+
+                        output:
+                                bdf
+
+            Hint: if you find out how to find the frequency of one character, then you can repeat it for the remaining characters to find the frequency.
+                        if frequency of a character == 1  =========> unique
+
