@@ -69,7 +69,7 @@
 
 Extra Spicy:
 
-	8. Create a class called RoomReservation, write a program for the room reservation, your program asks the user wants to reserve a room.
+@@	8. Create a class called RoomReservation, write a program for the room reservation, your program asks the user wants to reserve a room.
     	if user entered yes, then ask which type of room the user wants to reserve. if user entered no, print "have a nice day"
     			(if user entered any invalid answer (other than yes/no) ask user to reenter until user provides a valid entry)
 
@@ -81,7 +81,7 @@ Extra Spicy:
 
             (if the user selected an invalid room, ask the user to reselect the room until user provides a valid entry)
 
-	9. Create a class called UniqueCharacters, Write a program that can return the unique characters from a String
+@@	9. Create a class called UniqueCharacters, Write a program that can return the unique characters from a String
 
 	            Ex:
 	                input:
@@ -155,7 +155,7 @@ Day 16
         * * * * * * * * * *
 
 
-2. Create a class called MultiplicationTable, Write a program that can display the multiplication table:
+@@2. Create a class called MultiplicationTable, Write a program that can display the multiplication table:
 
                         1       2       3       4       5       6       7       8       9       10
                         2       4       6       8       10      12      14      16      18      20
@@ -169,7 +169,7 @@ Day 16
                         10      20      30      40      50      60      70      80      90      100
 
 
-3. Use a nested loop to print the following output:
+@@3. Use a nested loop to print the following output:
         Aa Ab Ac Ad Ae Af Ag Ah Ai Aj Ak Al Am An Ao Ap Aq Ar As At Au Av Aw Ax Ay Az
         Ba Bb Bc Bd Be Bf Bg Bh Bi Bj Bk Bl Bm Bn Bo Bp Bq Br Bs Bt Bu Bv Bw Bx By Bz
         Ca Cb Cc Cd Ce Cf Cg Ch Ci Cj Ck Cl Cm Cn Co Cp Cq Cr Cs Ct Cu Cv Cw Cx Cy Cz
