@@ -10,15 +10,25 @@ public class ReverseSecondWord {
         String sentence = "I Love Java";
 
         String[] words = sentence.split(" ");
+        String result = "";
 
-        for (int i = words[1].length()-1; i >0; i--) {
+        for (int i = 0; i < words.length; i++) {
 
-            String result ="";
-            result += words[1].charAt(i);
+            if (i == 1) {
 
+                String secondWord = words[i];
+                for (int j = secondWord.length() - 1; j >= 0; j--) {
 
+                    result += secondWord.charAt(j);
+                }
+                result += " ";
+            } else {
+                result += words[i] + " ";
+            }
         }
-        System.out.println(Arrays.toString(words));
+        System.out.println(result);
+
+
     }
 
 }
@@ -29,4 +39,29 @@ public class ReverseSecondWord {
 
             output:
                 I evoL Java
+
+
+
+                solution:
+
+        String sentence = "I Love Java";
+
+        String[] splitSent = sentence.split(" ");
+
+        String result = "";
+
+        for (int i = 0; i < splitSent.length; i++) {
+            if(i == 1){
+                String word = splitSent[i];
+                for(int j = word.length() - 1; j >= 0; j --){
+                    result += word.charAt(j) ;
+                }
+                result += " ";
+            } else {
+                result +=  splitSent[i] + " ";
+            }
+        }
+
+        System.out.println(result);
+
  */
